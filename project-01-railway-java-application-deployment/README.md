@@ -4,43 +4,39 @@
 
 This project demonstrates cloud application deployment using Railway.
 
-Railway is a modern cloud platform that enables developers to deploy applications quickly without managing infrastructure.
+Railway is a modern cloud platform that allows developers to deploy applications quickly without managing servers manually.
 
-The project simulates deploying a Java application to the cloud while managing:
-
-- Source Code
-- Build Process
-- Runtime Environment
-- Deployment Automation
-- Application Availability
+This project simulates the deployment of a Java application to a cloud environment while covering the basic concepts of application hosting, build automation, deployment logs, environment variables, and cloud-based application availability.
 
 ---
 
 # Business Scenario
 
-A startup needs to deploy a Java application to the cloud.
+A startup wants to deploy a small Java application to the cloud.
 
-The engineering team wants a platform that provides:
+The engineering team needs a simple cloud platform that supports:
 
-- Fast Deployment
-- Automatic Builds
-- Cloud Hosting
-- Environment Variables
-- Deployment Logs
-- Scalability
+- Fast application deployment
+- GitHub repository integration
+- Automated builds
+- Deployment logs
+- Environment variables
+- Public application access
+- Basic scalability
 
-Railway offers a streamlined platform for deploying applications without maintaining servers.
+Railway provides a developer-friendly cloud platform for deploying applications with minimal infrastructure management.
 
 ---
 
 # Objectives
 
-- Learn Cloud Deployment Fundamentals
-- Deploy Java Applications
-- Configure Cloud Environments
-- Understand Continuous Deployment
-- Manage Application Releases
-- Monitor Application Health
+- Understand Cloud Deployment Fundamentals
+- Deploy Java Applications to Cloud Platforms
+- Learn Railway Deployment Workflow
+- Configure Environment Variables
+- Understand Build and Runtime Processes
+- Review Deployment Logs
+- Build Cloud Engineering Portfolio Skills
 
 ---
 
@@ -52,22 +48,18 @@ Developer
     ▼
 
 GitHub Repository
-
     │
     ▼
 
 Railway Platform
-
     │
     ▼
 
 Build Process
-
     │
     ▼
 
-Cloud Deployment
-
+Cloud Runtime
     │
     ▼
 
@@ -79,31 +71,27 @@ Public Application URL
 # Deployment Workflow
 
 ```text
-Code Commit
-      │
-      ▼
+Write Application Code
+        │
+        ▼
 
-Push To GitHub
+Push Code to GitHub
+        │
+        ▼
 
-      │
-      ▼
+Connect Repository to Railway
+        │
+        ▼
 
-Railway Build
+Railway Builds Application
+        │
+        ▼
 
-      │
-      ▼
+Application Runs in Cloud
+        │
+        ▼
 
-Application Deployment
-
-      │
-      ▼
-
-Health Check
-
-      │
-      ▼
-
-Production Ready
+Public URL Generated
 ```
 
 ---
@@ -112,9 +100,7 @@ Production Ready
 
 ```text
 ===================================
-
  Railway Cloud Deployment
-
 ===================================
 
 Repository Connected
@@ -132,49 +118,80 @@ Deployment Completed
 
 ---
 
-# Skills Demonstrated
+# Key Cloud Concepts
 
-- Railway
-- Cloud Deployment
-- Java Applications
-- GitHub Integration
-- Continuous Deployment
-- Environment Variables
-- Application Hosting
+## Cloud Hosting
+
+Cloud hosting allows applications to run on managed infrastructure without manually managing physical servers.
+
+## Build Process
+
+The build process prepares the application for execution by compiling source code and preparing runtime dependencies.
+
+## Runtime Environment
+
+The runtime environment is where the application executes after deployment.
+
+## Environment Variables
+
+Environment variables store configuration values such as application mode, database URLs, API keys, or deployment settings.
+
+## Deployment Logs
+
+Deployment logs help engineers troubleshoot build errors, runtime errors, and application startup issues.
 
 ---
 
 # Technology Stack
 
 | Component | Technology |
-|------------|------------|
+|----------|------------|
 | Cloud Platform | Railway |
 | Application | Java |
 | Source Control | GitHub |
-| Deployment | Railway Deployments |
+| Deployment Type | Cloud Application Deployment |
 | Runtime | JVM |
+| Documentation | Markdown |
+
+---
+
+# Skills Demonstrated
+
+- Cloud Deployment
+- Railway Platform Basics
+- Java Application Hosting
+- GitHub Integration
+- Continuous Deployment Concepts
+- Environment Variable Management
+- Deployment Documentation
+- Cloud Engineering Fundamentals
 
 ---
 
 # Enterprise Use Cases
 
-- Startup Applications
-- Internal Systems
-- Web Applications
+This project is relevant for:
+
+- Startup Application Hosting
+- Internal Business Tools
+- Proof-of-Concept Applications
 - API Hosting
-- Proof of Concepts
-- Cloud Migration
+- Small Backend Services
+- Cloud Migration Practice
+- Cloud Engineering Training
 
 ---
 
 # Future Enhancements
 
-- Custom Domains
-- PostgreSQL Integration
-- Redis Caching
-- Monitoring
-- CI/CD Pipelines
-- Multi-Environment Deployments
+- Add REST API
+- Add PostgreSQL Database
+- Add Redis Cache
+- Add Custom Domain
+- Add Health Check Endpoint
+- Add CI/CD Workflow
+- Add Monitoring
+- Add Multi-Environment Deployment
 
 ---
 
