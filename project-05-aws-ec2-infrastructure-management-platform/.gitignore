@@ -1,0 +1,10 @@
+.DS_Store
+*.log
+target/
+build/
+.idea/
+.vscode/
+.env
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
