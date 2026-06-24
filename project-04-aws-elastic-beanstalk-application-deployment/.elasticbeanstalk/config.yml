@@ -1,0 +1,7 @@
+branch-defaults:
+  main:
+    environment: production
+
+global:
+  application_name: aws-java-app
+  default_region: us-east-1
