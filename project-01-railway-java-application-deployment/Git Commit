@@ -1,0 +1,5 @@
+git add .
+
+git commit -m "add project 01 railway java application deployment"
+
+git push
