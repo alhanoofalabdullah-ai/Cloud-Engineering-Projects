@@ -1,0 +1,5 @@
+git add .
+
+git commit -m "add project 06 aws vpc network architecture platform"
+
+git push
