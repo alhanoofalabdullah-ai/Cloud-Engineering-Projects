@@ -1,0 +1,11 @@
+services:
+
+  - type: web
+
+    name: render-java-app
+
+    runtime: docker
+
+    plan: free
+
+    autoDeploy: true
