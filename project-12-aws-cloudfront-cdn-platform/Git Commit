@@ -1,0 +1,5 @@
+git add .
+
+git commit -m "add project 12 aws cloudfront cdn platform"
+
+git push
