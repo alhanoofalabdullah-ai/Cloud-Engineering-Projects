@@ -1,0 +1,5 @@
+git add .
+
+git commit -m "add project 04 aws elastic beanstalk application deployment"
+
+git push
