@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.idea/
+.vscode/
+*.zip
