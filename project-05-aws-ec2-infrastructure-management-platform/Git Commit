@@ -1,0 +1,5 @@
+git add .
+
+git commit -m "add project 05 aws ec2 infrastructure management platform"
+
+git push
