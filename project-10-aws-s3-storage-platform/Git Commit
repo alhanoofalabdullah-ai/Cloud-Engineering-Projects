@@ -1,0 +1,5 @@
+git add .
+
+git commit -m "add project 10 aws s3 storage platform"
+
+git push
